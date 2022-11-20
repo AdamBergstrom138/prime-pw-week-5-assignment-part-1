@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = (me.firstName + ' ' + me.lastName);
+let fullName = (me.firstName + ' ' + me.lastName); // Adding the space here so it reads correct.
 console.log(fullName);
 
 
@@ -44,7 +44,7 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 console.log('My current shoe count:', me.shoeCount);
-me.shoeCount++;
+me.shoeCount++;  // Adding one to the current count
 console.log('My new shoe count:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
@@ -54,4 +54,5 @@ console.log('My new shoe count:', me.shoeCount);
   - Console.log your object
 */
 me.favoriteColor = 'purple';
-console.log(me.favoriteColor);
+console.log('Adding favoriteColor:', me.favoriteColor);
+console.log(me);
